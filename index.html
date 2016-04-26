@@ -1,19 +1,107 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Start Wars RPG!</title>
+  <meta charset="UTF-8">
+  
+  <title>Star Wars RPG</title>
 
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+  <!-- link to the jQuery Library -->
+  <script type="text/javascript" src="assets/javascript/jquery-1.12.3.min.js"></script>
 
-<img src="../week-4-game/images/background.png" alt="background" style="width: 860px;height: 540px;">
+  <!-- link to javascript with game logic-->
+  <script type="text/javascript" src="assets/javascript/logic.js"></script>
 
-	
-	
+    <!-- link to Bootstrap-->
+    <link rel="stylesheet" type="text/css" src="assets/css/bootstrap.min.css">
+
+    <!--Link to custom stylesheet-->   
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--Link google fonts-->
+    
+    <link href='https://fonts.googleapis.com/css?family=Play&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <!--Link imagen-->
+    
+    
 </head>
-<body>
+<body> 
+
+
+
+<div class="container">
+
+    <div class="row">
+
+        <!-- Character Panel -->
+        
+        <div class="row">
+        	
+          <div class="col-md-12" id="selCharpre">
+            
+              </div>
+            
+              	</div>
+            
+            <div class="row">
+        		
+            <div class="col-md-12">
+        		
+            <h3>Your Character</h3>
+        		
+            </div>
+        		
+            </div>
+    				
+          <div class="row">
+        	
+          <div class="col-md-12" id="selChar">
+        
+        </div>
+        
+        	</div>
+
+		<!-- Enemies available to Attack-->
+
+            		<div class="row">
+				<div class="col-md-12">
+			<h3>Enemies available to Attack</h3>
+		</div>
+			</div>
+            		<div class="row">
+				<div class="col-md-12" id="Enemies">
+		</div>
+			</div>
+		<!--Fight Section-->
+    			<div class="row">
+                	<div class="col-md-12" id="fightsec">
+                    		<h3>Fight Section</h3>
+                    	<button id="buttonAttack" type="button" class="btn btn-danger attack" value=attack><h4>Attack</h4></button>
+                    </div>
+                </div>
+        <!--Defender section-->
+               <div class="row">
+               		<div class="col-md-12" id="Defender">
+               				<h3>Defender</h3>
+               			</div>
+               		</div> 
+   		<!--Results section-->
+               	<div class="row">
+               		<div class="col-md-12" id="results"></div>
+               	</div>	
+            </div>
+        </div>
+      <!--Restart button-->
+      <div class="row">
+          <div class="col-md-12" id="restart">
+            <button id="buttonReset" type="button" class="btn btn-primary reset" value=reset><h4>Reset</h4></button>
+          </div>
+              </div>  
+            </div>
+        </div>
+        <img src="../week-4-game/images/background.png" alt="background"style="width: 860px;height: 540px;">
+  <script type="text/javascript" src="assets/javascript/bootstrap.min.js"></script>
 
 </body>
 </html>

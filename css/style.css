@@ -1,8 +1,64 @@
-*{ 
-	font-family: 'Play', sans-serif;
- 	font-weight: 400; 
+	body {
+	background-image: url("../week-4-game/images/background.png" alt="background");
+	color: white;
 }
-img{
-	background-image: "../week-4-game/images/background.png;"
-
+#charTitle {
+    position: relative;
+    bottom: 160px;
+    color: gray;
+    font-weight: lighter;
+}
+.Defender #charTitle {
+    position: relative;
+    bottom: 150px;
+    color: gray;
+    font-weight: lighter;
+}
+h4#charHealth {
+    position: relative;
+    bottom: 45px;
+    font-weight: lighter;
+    color: gray;
+}
+#selChar img {
+	margin-top: 3px;
+	border: 24px solid green;
+}
+#selCharpre img {
+	border: 24px solid green;
+}
+#Enemies img {
+	border: 24px solid red;
+}
+#Defender img {
+	border: 24px solid blue;
+}
+button {
+	height: 177px;
+	padding: 1px;
+	border-color: #EFEFEF;
+}
+#buttonAttack {
+	color: #02C39A;
+	width: 5%;
+    height: 33px;
+    background-color: #EFEFEF;
+    border-color: #d43f3a
+	height: 30px;
+}
+#buttonAttack h4 {
+	position: relative;
+	bottom: 10px;
+}
+#buttonNewGame {
+	color: #fff;
+	width: 5%;
+    height: 33px;
+    background-color: #337ab7;
+    border-color: #d43f3a
+	height: 30px;
+}
+#buttonNewGame h4 {
+	position: relative;
+	bottom: 10px;
 }
